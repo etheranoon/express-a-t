@@ -832,6 +832,7 @@ section.lazy-placeholder:after {
 }
 .cid-sftjoBuPgD .mbr-section-subtitle {
   color: #ffffff;
+  text-align: left;
 }
 .cid-sftjoBuPgD .btn {
   margin: 0 0 .5rem 0;
@@ -839,33 +840,26 @@ section.lazy-placeholder:after {
 .cid-sftjoBuPgD H2 {
   color: #ffffff;
 }
-.cid-sftk1OQS59 {
+.cid-sfttXSAYHX {
   padding-top: 90px;
-  padding-bottom: 15px;
+  padding-bottom: 90px;
   background-color: #767676;
 }
-.cid-sftk1OQS59 .mbr-section-subtitle {
-  color: #ffffff;
+.cid-sfttXSAYHX .mbr-section-subtitle {
+  color: #e4d295;
   text-align: center;
   font-weight: 300;
 }
-.cid-sftk1OQS59 .timeline-text-content {
+.cid-sfttXSAYHX .timeline-text-content {
   padding: 2rem 2.5rem;
-  background: #ffffff;
-  margin-left: 2rem;
+  background: #efefef;
+  margin-right: 2rem;
+  transition: all .4s;
 }
-.cid-sftk1OQS59 .timeline-text-content p {
+.cid-sfttXSAYHX .timeline-text-content p {
   margin-bottom: 0;
 }
-.cid-sftk1OQS59 .time-line-date-content {
-  margin-right: 2rem;
-}
-.cid-sftk1OQS59 .time-line-date-content p {
-  padding: 2rem 2.5rem;
-  background: #ffffff;
-  float: right;
-}
-.cid-sftk1OQS59 .timeline-element {
+.cid-sfttXSAYHX .timeline-element {
   margin-bottom: 50px;
   position: relative;
   word-wrap: break-word;
@@ -874,84 +868,69 @@ section.lazy-placeholder:after {
   flex-direction: row;
   -webkit-flex-direction: row;
 }
-.cid-sftk1OQS59 .timeline-element:hover .mbr-timeline-date {
+.cid-sfttXSAYHX .timeline-element:hover .timeline-text-content {
   box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
   transition: all .4s;
 }
-.cid-sftk1OQS59 .timeline-element:hover .timeline-text-content {
-  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
-  transition: all .4s;
-}
-.cid-sftk1OQS59 .mbr-timeline-date,
-.cid-sftk1OQS59 .timeline-text-content {
-  transition: all .4s;
-}
-.cid-sftk1OQS59 .reverse {
+.cid-sfttXSAYHX .reverse {
   flex-direction: row-reverse;
   -webkit-flex-direction: row-reverse;
 }
-.cid-sftk1OQS59 .reverse .timeline-text-content {
-  margin-right: 2rem;
-  margin-left: 0;
-}
-.cid-sftk1OQS59 .reverse .time-line-date-content {
+.cid-sfttXSAYHX .reverse .timeline-text-content {
   margin-left: 2rem;
-  margin-right: 0rem;
+  margin-right: 0;
 }
-.cid-sftk1OQS59 .reverse .time-line-date-content p {
-  float: left;
-}
-.cid-sftk1OQS59 .iconBackground {
+.cid-sfttXSAYHX .iconsBackground {
   position: absolute;
   left: 50%;
-  width: 20px;
-  height: 20px;
+  width: 60px;
+  height: 60px;
   line-height: 30px;
   text-align: center;
   border-radius: 50%;
-  font-size: 30px;
   display: inline-block;
-  background-color: #ffffff;
+  background-color: #efefef;
   top: 20px;
-  margin-left: -10px;
+  margin-left: -30px;
 }
-.cid-sftk1OQS59 .separline:before {
+.cid-sfttXSAYHX .mbr-iconfont {
+  position: absolute;
+  text-align: center;
+  font-size: 35px;
+  display: inline-block;
+  z-index: 3;
+  top: 13px;
+  left: 13px;
+}
+.cid-sfttXSAYHX .separline:before {
   top: 20px;
   bottom: 0;
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #ffffff;
+  background-color: #efefef;
   left: calc(50% - 1px);
   height: calc(100% + 4rem);
 }
 @media (max-width: 768px) {
-  .cid-sftk1OQS59 .iconBackground {
-    left: 0 !important;
+  .cid-sfttXSAYHX .iconsBackground {
+    left: 1.5rem;
   }
-  .cid-sftk1OQS59 .separline:before {
-    left: 0!important;
+  .cid-sfttXSAYHX .separline:before {
+    left: calc(1.5rem - 1px);
   }
-  .cid-sftk1OQS59 .timeline-text-content {
-    margin-left: 0 !important;
-  }
-  .cid-sftk1OQS59 .time-line-date-content {
+  .cid-sfttXSAYHX .timeline-text-content {
+    margin-left: 3rem !important;
     margin-right: 0 !important;
   }
-  .cid-sftk1OQS59 .time-line-date-content p {
-    float: left !important;
-  }
-  .cid-sftk1OQS59 .reverse .time-line-date-content {
-    margin-left: 0 !important;
-  }
-  .cid-sftk1OQS59 .reverse .timeline-text-content {
+  .cid-sfttXSAYHX .reverse .timeline-text-content {
     margin-right: 0 !important;
   }
 }
-.cid-sftk1OQS59 .reverseTimeline {
+.cid-sfttXSAYHX .reverseTimeline {
   display: flex;
   flex-direction: column-reverse;
 }
-.cid-sftk1OQS59 .mbr-section-title {
+.cid-sfttXSAYHX .mbr-section-title {
   color: #ffffff;
 }
